@@ -38,4 +38,4 @@ for filename in os.listdir(picture_dir):
             new_file_path = os.path.join(picture_dir, new_filename)
             
             os.rename(old_file_path, new_file_path)
-            print(f"Renamed: {filename} -> {new_filename}")
+            print(f"{filename} -> {new_filename}")
